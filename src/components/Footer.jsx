@@ -5,10 +5,12 @@ function Footer() {
     // <div>
 
 
-    <div className='footer bottom-4'>Footer
+    // <div className='container-xl flex- bg-blue-800'>
+          <div className='container-fluid flex- bg-blue-800'>
+
     {/* </div>    */}
     
-    <p>@Techno: {new Date().getFullYear()}</p>
+  <p>@Techno: {new Date().getFullYear()}</p>
      </div>
 
   )

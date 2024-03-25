@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   text-align: none; 
-  gap: 20px;
+  gap: 25px;
 }
 
 .container{
@@ -12,30 +12,30 @@
 
 main{
   width: 100%;
-  padding: 20px;
+  padding: 10px;
 }
 .sidebar{
   background:purple;
   color: white;
   height: 100%;
-  width: 300%;
+  width: 100%;
 }
 .top_section{
 display: flex;
 align-items: center;
-padding: 20px 15px;
+padding: 10px 15px;
 
 }
 
 .logo{
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .bars{
   display: flex;
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 0px;
-  padding-left: 15px;
+  padding-left: 0px;
 }
 .link{
   display: flex;
@@ -49,7 +49,7 @@ link:hover{
 }
 
 .icon, .link_text{
-  font-size: 20px;
+  font-size: 10px;
 }
 
 .active{
@@ -57,3 +57,20 @@ link:hover{
   color: orange;
 }
 
+.app{
+
+display: flex-col-4;
+
+
+}
+.navbar{
+background-color: rgb(204, 186, 180);
+
+}
+.footer{
+  display: flex;
+  background-color: coral;
+  color: white;
+  justify-content: center;
+
+}
